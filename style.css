@@ -1,0 +1,109 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Styling */
+.sidebar .sidebar-content {
+    background-color: #2B579A;
+    color: #ffffff;
+}
+
+.sidebar .sidebar-title {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sidebar .sidebar-image img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Main Title Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #2B579A;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Form Section Styling */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Form Input Styling */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #6c757d; /* Default border color */
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #ffffff;
+}
+
+/* Focused Inputs: Change Border Color on Focus */
+input:focus, select:focus, textarea:focus {
+    border-color: #2B579A; /* Custom border color when focused */
+    box-shadow: 0px 0px 5px rgba(43, 87, 154, 0.5); /* Light shadow effect */
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background-color: #2B579A;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1F3C73;
+}
+
+/* Predicted Price Box */
+.predicted-price {
+    background-color: #DFF6DD;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border: 2px solid #4CAF50;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2E7D32;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #2B579A;
+    text-decoration: none;
+}
+
+/* Highlighted Titles */
+h2, h3, h4 {
+    color: #2B579A;
+}
