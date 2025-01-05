@@ -129,7 +129,7 @@ if submitted:
             unsafe_allow_html=True,
         )
     except Exception as e:
-        st.error(f"An error occurred: {e}")
+        st.error(f"An error occurred: {e}") 
 
 # Footer
 st.sidebar.markdown(
