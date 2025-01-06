@@ -131,10 +131,12 @@ pip install numpy pandas scikit-learn xgboost streamlit matplotlib seaborn jobli
 The web application provides a seamless experience for users. Below are sample screenshots:
 
 1. **Before Prediction**  
-   ![StreamUI After Prediction](https://github.com/user-attachments/assets/6f5dd275-cda8-4c04-8d30-23688683d69a)
+   ![StreamUI before Prediction-1](https://github.com/user-attachments/assets/f6edd8aa-a0e9-4175-9c72-f0abfec4b350)
+   ![StreamUI before Prediction-2](https://github.com/user-attachments/assets/05c3fc88-de58-4bf3-bfb6-4de37cb2b3cf)
 
 2. **After Prediction**  
-   ![image](https://github.com/user-attachments/assets/99d5b0da-9d7d-4cd1-a532-14292ea369a8)
+   ![StreamUI After Prediction](https://github.com/user-attachments/assets/28cee394-861b-4cc9-ab2d-589c742733b2)
+
 
 
 ---
