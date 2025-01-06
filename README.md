@@ -1,16 +1,16 @@
 # Chennai Land Price Prediction using Machine Learning
 
-This project focuses on building a machine learning model to predict land prices in Chennai. The project includes data preprocessing, feature engineering, and model optimization to achieve accurate predictions. Additionally, the model is integrated into a Streamlit-based web application for easy user interaction.
+This project focuses on building a machine learning model to predict land prices in Chennai. The project includes data preprocessing, feature engineering, and model optimization to achieve accurate predictions. Additionally, the model is integrated into a Streamlit-based web application for easy user interaction and hosted on AWS EC2 for enhanced scalability and accessibility.
 
 ## Introduction
 
-The **Chennai Land Price Prediction** project aims to assist users in predicting land prices based on specific attributes. This tool is designed for real estate buyers, sellers, and investors to evaluate land prices efficiently. Using machine learning models and an interactive Streamlit web application, the project provides instant price estimates based on user inputs.
+The **Chennai Land Price Prediction** project aims to assist users in predicting land prices based on specific attributes. This tool is designed for real estate buyers, sellers, and investors to evaluate land prices efficiently. Using machine learning models, a Streamlit web application, and AWS EC2 deployment, the project provides instant price estimates based on user inputs.
 
 ---
 
 ## Project Scope
 
-The project utilizes historical data on land sales in Chennai, incorporating various features such as location, size, type, and surrounding infrastructure. The objective is to create a machine learning model that predicts land prices with high accuracy. The model is deployed in a user-friendly Streamlit interface to enable users to input land details and obtain instant predictions.
+The project utilizes historical data on land sales in Chennai, incorporating various features such as location, size, type, and surrounding infrastructure. The objective is to create a machine learning model that predicts land prices with high accuracy. The model is deployed in a user-friendly Streamlit interface hosted on AWS EC2 for robust performance and seamless user access.
 
 ---
 
@@ -137,7 +137,21 @@ The web application provides a seamless experience for users. Below are sample s
 2. **After Prediction**  
    ![StreamUI After Prediction](https://github.com/user-attachments/assets/28cee394-861b-4cc9-ab2d-589c742733b2)
 
+---
 
+## Deployment on AWS EC2
+
+The project is deployed on an AWS EC2 instance to ensure reliability, scalability, and accessibility. Users can interact with the web application through a public URL, accessing the prediction tool from anywhere without local setup. 
+
+**Key benefits of AWS EC2 deployment:**
+1. Scalable infrastructure to handle user requests efficiently.
+2. Secure and reliable hosting for the application.
+3. Easy accessibility via the internet.
+
+**Steps for deployment:**
+1. Set up an AWS EC2 instance with the required specifications.
+2. Install the necessary libraries and dependencies on the instance.
+3. Deploy the Streamlit application and configure it for public access.
 
 ---
 
