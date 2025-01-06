@@ -1,2 +1,142 @@
-# Land_Price_Prediction
-Land Price Prediction is a machine learning project that analyzes real estate data to predict property values based on features like location, size, and market trends. This tool aids buyers, sellers, and investors in making data-driven decisions.
+# Chennai Land Price Prediction using Machine Learning
+
+This project focuses on building a machine learning model to predict land prices in Chennai. The project includes data preprocessing, feature engineering, and model optimization to achieve accurate predictions. Additionally, the model is integrated into a Streamlit-based web application for easy user interaction.
+
+## Introduction
+
+The **Chennai Land Price Prediction** project aims to assist users in predicting land prices based on specific attributes. This tool is designed for real estate buyers, sellers, and investors to evaluate land prices efficiently. Using machine learning models and an interactive Streamlit web application, the project provides instant price estimates based on user inputs.
+
+---
+
+## Project Scope
+
+The project utilizes historical data on land sales in Chennai, incorporating various features such as location, size, type, and surrounding infrastructure. The objective is to create a machine learning model that predicts land prices with high accuracy. The model is deployed in a user-friendly Streamlit interface to enable users to input land details and obtain instant predictions.
+
+---
+
+## Packages Used
+
+### Pandas
+- Pandas is utilized for data manipulation and preprocessing.
+- Learn more about Pandas [here](https://pandas.pydata.org/docs/).
+
+### NumPy
+- Used for numerical operations and handling missing data.
+- Learn more about NumPy [here](https://numpy.org/doc/stable/).
+
+### Scikit-learn
+- Used for data preprocessing, feature encoding, and model evaluation.
+- Learn more about Scikit-learn [here](https://scikit-learn.org/stable/).
+
+### XGBoost
+- XGBoost is the primary model for prediction, offering high performance and accuracy.
+- Learn more about XGBoost [here](https://xgboost.readthedocs.io/en/stable/).
+
+### Streamlit
+- Used to develop the web-based interface for user interaction.
+- Learn more about Streamlit [here](https://docs.streamlit.io/).
+
+### Joblib
+- Used for saving and loading the trained model and preprocessing pipelines.
+- Learn more about Joblib [here](https://joblib.readthedocs.io/en/stable/).
+
+### Matplotlib & Seaborn
+- Used for data visualization and exploratory data analysis (EDA).
+- Learn more about Matplotlib [here](https://matplotlib.org/) and Seaborn [here](https://seaborn.pydata.org/).
+
+### CSS
+- A custom CSS file enhances the Streamlit UI for a better user experience.
+
+---
+
+## Installation
+
+To set up the environment, run the following commands to install the required libraries:
+
+```bash
+pip install numpy pandas scikit-learn xgboost streamlit matplotlib seaborn joblib
+```
+
+---
+
+## File Structure
+
+1. **`Data_Preprocessing.ipynb`**  
+   - Prepares the raw data by handling missing values, encoding categorical features, and normalizing data. The cleaned data is saved as `Preprocessed_data.csv`.
+     
+2. **`Preprocessed_data.csv`**  
+   - The cleaned dataset used for training and testing.
+    
+3. **`LandPrice_Prediction_Model.ipynb`**  
+   - Trains multiple models (e.g., Random Forest, XGBoost) and evaluates them. The best-performing model (XGBoost) is saved as `xgboost_best_model.pkl`.
+  
+4. **`encode_categorical_columns.pkl`**  
+   - Stores mappings for categorical feature encoding.
+
+5. **`xgboost_best_model.pkl`**  
+   - The trained machine learning model used for predictions.
+
+6. **`StreamLit_UI.py`**  
+   - A Streamlit script that provides an interface for users to input land details and get price predictions using the trained model.
+
+7. **`style.css`**  
+   - Custom CSS to style the Streamlit web application.
+
+8. **`train-chennai-sale.csv`**  
+   - The raw dataset containing land price information.
+
+9. **`Chennai_Price_Prediction_logo.webp`**  
+   - The project logo for branding purposes.
+
+---
+
+## How to Run the Code
+
+1. **Preprocess the data:**
+   - Run the `Data_Preprocessing.ipynb` notebook to clean and prepare the dataset.
+
+2. **Train the model:**
+   - Run the `LandPrice_Prediction_Model.ipynb` notebook to train and save the model.
+
+3. **Launch the web application:**
+   - Use the following command to run the Streamlit app:
+     ```bash
+     streamlit run StreamLit_UI.py
+     ```
+
+---
+
+## Features of the Web Application
+
+- User-friendly interface to input land details such as size, location, and type.
+- Instant predictions of land prices using the trained XGBoost model.
+- Interactive and visually appealing design enhanced with CSS styling.
+
+---
+
+## Model Evaluation
+
+- **Pre-Tuning Score**: Initial performance metrics of the XGBoost model.
+- **Post-Tuning Score**: Improved performance after hyperparameter tuning.
+
+| Metric              | Before Tuning      | After Tuning |
+|---------------------|--------------------|--------------|
+| Mean Absolute Error | 317394.2           | 219982.95    |
+| R² Score            | 0.987434           | 0.9939322    |
+
+---
+
+## Streamlit UI
+
+The web application provides a seamless experience for users. Below are sample screenshots:
+
+1. **Before Prediction**  
+   ![StreamUI After Prediction](https://github.com/user-attachments/assets/6f5dd275-cda8-4c04-8d30-23688683d69a)
+
+2. **After Prediction**  
+   ![image](https://github.com/user-attachments/assets/99d5b0da-9d7d-4cd1-a532-14292ea369a8)
+
+
+---
+
+
