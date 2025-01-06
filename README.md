@@ -153,6 +153,16 @@ The project is deployed on an AWS EC2 instance to ensure reliability, scalabilit
 2. Install the necessary libraries and dependencies on the instance.
 3. Deploy the Streamlit application and configure it for public access.
 
+### Example Screenshots
+
+1. **Deployed Streamlit UI on AWS EC2**
+   ![image](https://github.com/user-attachments/assets/ab2f00f6-4548-4d11-9adc-8ae02aa378d0)
+
+   ![image](https://github.com/user-attachments/assets/858d87f6-2303-4b39-9877-20eac7cb2bb6)
+
+   ![image](https://github.com/user-attachments/assets/7e4c9ccb-68bc-4f11-b36a-b392f670feb5)
+
+
 ---
 
 
